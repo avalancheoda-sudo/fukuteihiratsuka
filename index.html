@@ -1,0 +1,478 @@
+{\rtf1\ansi\ansicpg932\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 <!DOCTYPE html>\
+<html lang="ja">\
+<head>\
+    <meta charset="UTF-8">\
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">\
+    <title>\uc0\u21488 \u28286 \u26009 \u29702  \u31119 \u20141  \u21271 \u37329 \u30446 \u24215  | \u26412 \u26684 \u12539 \u12508 \u12522 \u12517 \u12540 \u12512 \u28288 \u28857 \u12398 \u21488 \u28286 \u20013 \u33775 </title>\
+    <style>\
+        /* -----------------------------------------\
+           \uc0\u12505 \u12540 \u12473 \u12539 \u20849 \u36890 \u12473 \u12479 \u12452 \u12523 \
+        ----------------------------------------- */\
+        * \{\
+            margin: 0;\
+            padding: 0;\
+            box-sizing: border-box;\
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Segoe UI', sans-serif;\
+        \}\
+        body \{\
+            color: #333;\
+            background-color: #fff9f5; /* \uc0\u26262 \u12363 \u12415 \u12398 \u12354 \u12427 \u34180 \u12356 \u12505 \u12540 \u12473 \u33394  */\
+            line-height: 1.6;\
+        \}\
+        a \{\
+            text-decoration: none;\
+            color: inherit;\
+        \}\
+        img \{\
+            max-width: 100%;\
+            height: auto;\
+            display: block;\
+        \}\
+        .container \{\
+            width: 100%;\
+            max-width: 1200px;\
+            margin: 0 auto;\
+            padding: 0 20px;\
+        \}\
+        .section-title \{\
+            text-align: center;\
+            font-size: 2rem;\
+            color: #c92a2a; /* \uc0\u21488 \u28286 \u12539 \u20013 \u33775 \u12434 \u12452 \u12513 \u12540 \u12472 \u12377 \u12427 \u28145 \u12415 \u12398 \u12354 \u12427 \u36196  */\
+            margin-bottom: 40px;\
+            position: relative;\
+            font-weight: bold;\
+        \}\
+        .section-title::after \{\
+            content: '';\
+            display: block;\
+            width: 60px;\
+            height: 4px;\
+            background-color: #fab005; /* \uc0\u12450 \u12463 \u12475 \u12531 \u12488 \u12398 \u12468 \u12540 \u12523 \u12489  */\
+            margin: 10px auto 0;\
+            border-radius: 2px;\
+        \}\
+\
+        /* -----------------------------------------\
+           \uc0\u12504 \u12483 \u12480 \u12540 \
+        ----------------------------------------- */\
+        header \{\
+            background-color: #ffffff;\
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);\
+            position: sticky;\
+            top: 0;\
+            z-index: 100;\
+        \}\
+        .header-wrap \{\
+            display: flex;\
+            justify-content: space-between;\
+            align-items: center;\
+            padding: 15px 0;\
+        \}\
+        .logo h1 \{\
+            font-size: 1.5rem;\
+            color: #c92a2a;\
+            font-weight: bold;\
+        \}\
+        .logo span \{\
+            font-size: 0.8rem;\
+            color: #666;\
+            display: block;\
+            font-weight: normal;\
+        \}\
+        .header-info \{\
+            display: flex;\
+            align-items: center;\
+            gap: 20px;\
+        \}\
+        .header-time \{\
+            font-size: 0.85rem;\
+            text-align: right;\
+            color: #555;\
+        \}\
+        .header-btn \{\
+            background-color: #c92a2a;\
+            color: #fff;\
+            padding: 10px 20px;\
+            border-radius: 4px;\
+            font-weight: bold;\
+            transition: background 0.3s;\
+        \}\
+        .header-btn:hover \{\
+            background-color: #a61b1b;\
+        \}\
+\
+        /* -----------------------------------------\
+           \uc0\u12513 \u12452 \u12531 \u12499 \u12472 \u12517 \u12450 \u12523 \
+        ----------------------------------------- */\
+        .hero \{\
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=1200&q=80') no-repeat center center/cover;\
+            height: 500px;\
+            display: flex;\
+            align-items: center;\
+            color: #fff;\
+            text-align: center;\
+        \}\
+        .hero-content \{\
+            width: 100%;\
+        \}\
+        .hero-sub \{\
+            font-size: 1.2rem;\
+            letter-spacing: 2px;\
+            margin-bottom: 15px;\
+            color: #fab005;\
+            font-weight: bold;\
+        \}\
+        .hero-title \{\
+            font-size: 3rem;\
+            font-weight: bold;\
+            margin-bottom: 25px;\
+            line-height: 1.3;\
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.6);\
+        \}\
+        .hero-tags \{\
+            display: flex;\
+            justify-content: center;\
+            gap: 15px;\
+            flex-wrap: wrap;\
+        \}\
+        .tag \{\
+            background-color: rgba(255,255,255,0.2);\
+            padding: 6px 15px;\
+            border-radius: 20px;\
+            font-size: 0.9rem;\
+            border: 1px solid #fff;\
+        \}\
+\
+        /* -----------------------------------------\
+           \uc0\u31119 \u20141 \u12398 \u12371 \u12384 \u12431 \u12426 \
+        ----------------------------------------- */\
+        .features \{\
+            padding: 80px 0;\
+            background-color: #fff;\
+        \}\
+        .feature-grid \{\
+            display: grid;\
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));\
+            gap: 30px;\
+        \}\
+        .feature-item \{\
+            text-align: center;\
+            padding: 30px 20px;\
+            background-color: #fff9f5;\
+            border-radius: 8px;\
+            border-top: 5px solid #c92a2a;\
+            box-shadow: 0 4px 6px rgba(0,0,0,0.02);\
+        \}\
+        .feature-icon \{\
+            font-size: 2.5rem;\
+            margin-bottom: 15px;\
+        \}\
+        .feature-item h3 \{\
+            font-size: 1.3rem;\
+            margin-bottom: 15px;\
+            color: #c92a2a;\
+        \}\
+\
+        /* -----------------------------------------\
+           \uc0\u12513 \u12491 \u12517 \u12540 \u32057 \u20171 \
+        ----------------------------------------- */\
+        .menu-section \{\
+            padding: 80px 0;\
+        \}\
+        .menu-grid \{\
+            display: grid;\
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));\
+            gap: 25px;\
+        \}\
+        .menu-item \{\
+            background-color: #fff;\
+            border-radius: 8px;\
+            overflow: hidden;\
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);\
+        \}\
+        .menu-img \{\
+            height: 200px;\
+            background-color: #ddd;\
+            display: flex;\
+            align-items: center;\
+            justify-content: center;\
+            color: #aaa;\
+            font-size: 0.9rem;\
+            background-size: cover;\
+            background-position: center;\
+        \}\
+        .menu-info \{\
+            padding: 20px;\
+        \}\
+        .menu-name \{\
+            font-size: 1.15rem;\
+            font-weight: bold;\
+            margin-bottom: 10px;\
+        \}\
+        .menu-price \{\
+            color: #c92a2a;\
+            font-size: 1.25rem;\
+            font-weight: bold;\
+        \}\
+        .menu-desc \{\
+            font-size: 0.85rem;\
+            color: #666;\
+            margin-top: 5px;\
+        \}\
+\
+        /* -----------------------------------------\
+           \uc0\u24215 \u33303 \u24773 \u22577 \u12539 \u12450 \u12463 \u12475 \u12473 \
+        ----------------------------------------- */\
+        .info-section \{\
+            padding: 80px 0;\
+            background-color: #fff;\
+        \}\
+        .info-flex \{\
+            display: flex;\
+            flex-wrap: wrap;\
+            gap: 40px;\
+        \}\
+        .info-table \{\
+            flex: 1;\
+            min-width: 300px;\
+        \}\
+        .info-table table \{\
+            width: 100%;\
+            border-collapse: collapse;\
+        \}\
+        .info-table th, .info-table td \{\
+            padding: 15px;\
+            border-bottom: 1px solid #eee;\
+            text-align: left;\
+        \}\
+        .info-table th \{\
+            width: 30%;\
+            color: #c92a2a;\
+            font-weight: bold;\
+        \}\
+        .info-map \{\
+            flex: 1;\
+            min-width: 300px;\
+            height: 350px;\
+            background-color: #eee;\
+            border-radius: 8px;\
+            display: flex;\
+            align-items: center;\
+            justify-content: center;\
+            color: #777;\
+        \}\
+\
+        /* -----------------------------------------\
+           \uc0\u12501 \u12483 \u12479 \u12540  \u65286  \u22266 \u23450 \u36899 \u32097 \u12508 \u12479 \u12531 \
+        ----------------------------------------- */\
+        footer \{\
+            background-color: #222;\
+            color: #fff;\
+            text-align: center;\
+            padding: 30px 0 100px; /* \uc0\u19979 \u37096 \u12395 \u22266 \u23450 \u12508 \u12479 \u12531 \u29992 \u12398 \u20313 \u30333  */\
+            font-size: 0.9rem;\
+        \}\
+        .footer-logo \{\
+            font-size: 1.2rem;\
+            color: #fab005;\
+            margin-bottom: 10px;\
+        \}\
+\
+        /* \uc0\u12473 \u12510 \u12507 \u29992 \u19979 \u37096 \u22266 \u23450 \u12508 \u12479 \u12531  */\
+        .fixed-contact \{\
+            position: fixed;\
+            bottom: 0;\
+            left: 0;\
+            width: 100%;\
+            background-color: #fff;\
+            box-shadow: 0 -4px 10px rgba(0,0,0,0.1);\
+            display: flex;\
+            z-index: 200;\
+        \}\
+        .fixed-btn \{\
+            flex: 1;\
+            text-align: center;\
+            padding: 15px 0;\
+            font-weight: bold;\
+            font-size: 1rem;\
+            display: flex;\
+            align-items: center;\
+            justify-content: center;\
+            gap: 8px;\
+        \}\
+        .btn-tel \{\
+            background-color: #fab005;\
+            color: #222;\
+        \}\
+        .btn-takeout \{\
+            background-color: #c92a2a;\
+            color: #fff;\
+        \}\
+\
+        /* -----------------------------------------\
+           \uc0\u12524 \u12473 \u12509 \u12531 \u12471 \u12502 \u65288 \u12473 \u12510 \u12507 \u23550 \u24540 \u65289 \
+        ----------------------------------------- */\
+        @media (max-width: 768px) \{\
+            .header-time, .header-btn-top \{\
+                display: none;\
+            \}\
+            .hero-title \{\
+                font-size: 2rem;\
+            \}\
+            .section-title \{\
+                font-size: 1.6rem;\
+            \}\
+        \}\
+    </style>\
+</head>\
+<body>\
+\
+    <header>\
+        <div class="container header-wrap">\
+            <div class="logo">\
+                <h1>\uc0\u21488 \u28286 \u26009 \u29702  \u31119 \u20141  <span>\u21271 \u37329 \u30446 \u24215 </span></h1>\
+            </div>\
+            <div class="header-info">\
+                <div class="header-time">\
+                    \uc0\u26172  11:00\u12316 14:30 / \u22812  17:00\u12316 24:00<br>\u12304 \u24215 \u21069 \u39376 \u36554 \u22580  8\u21488 \u23436 \u20633 \u12305 \
+                </div>\
+                <a href="tel:0463-58-1686" class="header-btn header-btn-top">\uc0\u55357 \u56542  0463-58-1686</a>\
+            </div>\
+        </div>\
+    </header>\
+\
+    <section class="hero">\
+        <div class="hero-content container">\
+            <p class="hero-sub">\uc0\u24179 \u22618 \u24066 \u21271 \u37329 \u30446 \u12539 \u26481 \u28023 \u22823 \u23398 \u36817 \u12367 </p>\
+            <h2 class="hero-title">\uc0\u22311 \u20498 \u30340 \u12508 \u12522 \u12517 \u12540 \u12512 \u12392 \u26412 \u26684 \u12398 \u21619 \u65281 <br>\u12362 \u33145 \u12356 \u12387 \u12401 \u12356 \u24184 \u12379 \u12395 \u12394 \u12427 \u21488 \u28286 \u20013 \u33775 </h2>\
+            <div class="hero-tags">\
+                <span class="tag">\uc0\u23450 \u39135 \u12539 \u12475 \u12483 \u12488 \u20805 \u23455 </span>\
+                <span class="tag">\uc0\u12362 \u24231 \u25975 58\u24109 </span>\
+                <span class="tag">\uc0\u12486 \u12452 \u12463 \u12450 \u12454 \u12488 \u22823 \u27475 \u36814 </span>\
+                <span class="tag">\uc0\u28145 \u22812 24\u26178 \u12414 \u12391 \u21942 \u26989 </span>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <section class="features">\
+        <div class="container">\
+            <h2 class="section-title">\uc0\u31119 \u20141 \u12364 \u36984 \u12400 \u12428 \u12427 3\u12388 \u12398 \u29702 \u30001 </h2>\
+            <div class="feature-grid">\
+                <div class="feature-item">\
+                    <div class="feature-icon">\uc0\u55356 \u57180 </div>\
+                    <h3>\uc0\u12467 \u12473 \u12497 \u65286 \u12508 \u12522 \u12517 \u12540 \u12512 \u26368 \u24375 </h3>\
+                    <p>\uc0\u23398 \u29983 \u12373 \u12435 \u12418 \u12501 \u12449 \u12511 \u12522 \u12540 \u12418 \u22823 \u28288 \u36275 \u65281 \u22311 \u20498 \u30340 \u12394 \u12508 \u12522 \u12517 \u12540 \u12512 \u12398 \u23450 \u39135 \u12420 \u12289 \u36984 \u12409 \u12427 \u40634 \u12539 \u39151 \u12475 \u12483 \u12488 \u12434 \u12522 \u12540 \u12474 \u12490 \u12502 \u12523 \u12395 \u12372 \u25552 \u20379 \u12375 \u12414 \u12377 \u12290 </p>\
+                </div>\
+                <div class="feature-item">\
+                    <div class="feature-icon">\uc0\u55357 \u56424 \u8205 \u55357 \u56425 \u8205 \u55357 \u56423 \u8205 \u55357 \u56422 </div>\
+                    <h3>\uc0\u24195 \u12293 58\u24109 \u12539 \u23567 \u19978 \u12364 \u12426 \u24231 \u25975 \u12354 \u12426 </h3>\
+                    <p>\uc0\u23567 \u12373 \u12394 \u12362 \u23376 \u27096 \u36899 \u12428 \u12398 \u12372 \u23478 \u26063 \u12418 \u23433 \u24515 \u12398 \u24195 \u12356 \u12362 \u24231 \u25975 \u12434 \u23436 \u20633 \u12290 \u12459 \u12454 \u12531 \u12479 \u12540 \u24109 \u12418 \u12354 \u12427 \u12398 \u12391 \u12362 \u19968 \u20154 \u27096 \u12418 \u22823 \u27475 \u36814 \u12391 \u12377 \u65281 </p>\
+                </div>\
+                <div class="feature-item">\
+                    <div class="feature-icon">\uc0\u55358 \u56673 </div>\
+                    <h3>\uc0\u12362 \u12358 \u12385 \u12391 \u26412 \u26684 \u20013 \u33775 \u65288 \u25345 \u24112 \u21487 \u65289 </h3>\
+                    <p>\uc0\u31119 \u20141 \u12398 \u21619 \u12434 \u12372 \u23478 \u24237 \u12391 \u12418 \u12290 \u12362 \u38651 \u35441 \u19968 \u26412 \u12391 \u12289 \u20986 \u26469 \u31435 \u12390 \u12398 \u12450 \u12484 \u12450 \u12484 \u20013 \u33775 \u12539 \u21488 \u28286 \u26009 \u29702 \u12434 \u12362 \u25345 \u12385 \u24112 \u12426 \u12356 \u12383 \u12384 \u12369 \u12414 \u12377 \u12290 </p>\
+                </div>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <section class="menu-section">\
+        <div class="container">\
+            <h2 class="section-title">\uc0\u12362 \u12377 \u12377 \u12417 \u12513 \u12491 \u12517 \u12540 </h2>\
+            <div class="menu-grid">\
+                <div class="menu-item">\
+                    <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=500&q=80');"></div>\
+                    <div class="menu-info">\
+                        <div class="menu-name">\uc0\u20116 \u30446 \u12496 \u12522 \u12381 \u12400 </div>\
+                        <div class="menu-price">935\uc0\u20870 </div>\
+                        <p class="menu-desc">\uc0\u20855 \u12384 \u12367 \u12373 \u12435 \u12398 \u29105 \u12293 \u12354 \u12435 \u12363 \u12369 \u12364 \u12289 \u12497 \u12522 \u12497 \u12522 \u12398 \u40634 \u12395 \u32097 \u12416 \u12522 \u12500 \u12540 \u12479 \u12540 \u32154 \u20986 \u12398 \u20154 \u27671 \u12513 \u12491 \u12517 \u12540 \u65281 </p>\
+                    </div>\
+                </div>\
+                <div class="menu-item">\
+                    <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1603133872878-684f208fb84b?auto=format&fit=crop&w=500&q=80');"></div>\
+                    <div class="menu-info">\
+                        <div class="menu-name">\uc0\u20116 \u30446 \u28818 \u39151 \u65288 \u23567 \u65289 </div>\
+                        <div class="menu-price">440\uc0\u20870 </div>\
+                        <p class="menu-desc">\uc0\u12300 \u23567 \u12301 \u12392 \u12399 \u24605 \u12360 \u12394 \u12356 \u28288 \u36275 \u12508 \u12522 \u12517 \u12540 \u12512 \u65281 \u12497 \u12521 \u12497 \u12521 \u12395 \u20181 \u19978 \u12364 \u12387 \u12383 \u26412 \u22580 \u12398 \u21619 \u12391 \u12377 \u12290 </p>\
+                    </div>\
+                </div>\
+                <div class="menu-item">\
+                    <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1527477396000-e2cb862262f8?auto=format&fit=crop&w=500&q=80');"></div>\
+                    <div class="menu-info">\
+                        <div class="menu-name">\uc0\u12472 \u12517 \u12540 \u12471 \u12540 \u29305 \u22823 \u21776 \u25562 \u12370 </div>\
+                        <div class="menu-price">\uc0\u24215 \u20869 \u12391 \u12481 \u12455 \u12483 \u12463 </div>\
+                        <p class="menu-desc">\uc0\u22806 \u12399 \u12459 \u12522 \u12483 \u12392 \u12289 \u20013 \u12399 \u12472 \u12517 \u12540 \u12471 \u12540 \u65281 \u12468 \u12523 \u12501 \u24112 \u12426 \u12420 \u12460 \u12483 \u12484 \u12522 \u39135 \u12409 \u12383 \u12356 \u26178 \u12395 \u22806 \u12379 \u12394 \u12356 \u19968 \u21697 \u12290 </p>\
+                    </div>\
+                </div>\
+                <div class="menu-item">\
+                    <div class="menu-img" style="background-image: url('https://images.unsplash.com/photo-1547928576-a4a33234ccc5?auto=format&fit=crop&w=500&q=80');"></div>\
+                    <div class="menu-info">\
+                        <div class="menu-name">\uc0\u29305 \u35069  \u21488 \u28286 \u12521 \u12540 \u12513 \u12531 </div>\
+                        <div class="menu-price">\uc0\u24215 \u20869 \u12391 \u12481 \u12455 \u12483 \u12463 </div>\
+                        <p class="menu-desc">\uc0\u12500 \u12522 \u36763 \u12398 \u12511 \u12531 \u12481 \u12392 \u26088 \u21619 \u12473 \u12540 \u12503 \u12364 \u32048 \u40634 \u12395 \u32097 \u12416 \u12289 \u24403 \u24215 \u30475 \u26495 \u12398 \u21488 \u28286 \u40634 \u12391 \u12377 \u12290 </p>\
+                    </div>\
+                </div>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <section class="info-section">\
+        <div class="container">\
+            <h2 class="section-title">\uc0\u24215 \u33303 \u24773 \u22577 \u12539 \u12450 \u12463 \u12475 \u12473 </h2>\
+            <div class="info-flex">\
+                <div class="info-table">\
+                    <table>\
+                        <tr>\
+                            <th>\uc0\u24215 \u21517 </th>\
+                            <td>\uc0\u21488 \u28286 \u26009 \u29702  \u31119 \u20141  \u21271 \u37329 \u30446 \u24215 </td>\
+                        </tr>\
+                        <tr>\
+                            <th>\uc0\u20303 \u25152 </th>\
+                            <td>\uc0\u31070 \u22856 \u24029 \u30476 \u24179 \u22618 \u24066 \u21271 \u37329 \u30446 2-36-13 \u12477 \u12524 \u12452 \u12518 \u12473 \u12463 \u12456 \u12450 </td>\
+                        </tr>\
+                        <tr>\
+                            <th>\uc0\u21942 \u26989 \u26178 \u38291 </th>\
+                            <td>\
+                                \uc0\u26172 \u12398 \u37096 \u65306 11:00 - 14:30<br>\
+                                \uc0\u22812 \u12398 \u37096 \u65306 17:00 - 24:00\
+                            </td>\
+                        </tr>\
+                        <tr>\
+                            <th>\uc0\u12362 \u24109 </th>\
+                            <td>\uc0\u20840 58\u24109 \u65288 \u12486 \u12540 \u12502 \u12523 \u24109 \u12289 \u23567 \u19978 \u12364 \u12426 \u24231 \u25975 \u12289 \u12459 \u12454 \u12531 \u12479 \u12540 \u24109 \u12354 \u12426 \u65289 \u8251 \u20840 \u24109 \u31105 \u29017 </td>\
+                        </tr>\
+                        <tr>\
+                            <th>\uc0\u39376 \u36554 \u22580 </th>\
+                            <td>\uc0\u12354 \u12426 \u65288 \u24215 \u33303 \u21069 \u12395 8\u21488 \u20998 \u23436 \u20633 \u65289 </td>\
+                        </tr>\
+                    </table>\
+                </div>\
+                <div class="info-map">\
+                    \uc0\u55357 \u56826 \u65039  \u12304 \u12371 \u12371 \u12395 Google\u12510 \u12483 \u12503 \u12364 \u20837 \u12426 \u12414 \u12377 \u12305 <br>\u26481 \u28023 \u22823 \u23398 \u21069 \u39365 \u12363 \u12425 \u36554 \u12391 \u32004 5\u20998 \
+                </div>\
+            </div>\
+        </div>\
+    </section>\
+\
+    <footer>\
+        <div class="container">\
+            <div class="footer-logo">\uc0\u21488 \u28286 \u26009 \u29702  \u31119 \u20141  \u21271 \u37329 \u30446 \u24215 </div>\
+            <p>Copyright &copy; 2026 \uc0\u31119 \u20141  \u21271 \u37329 \u30446 \u24215  All Rights Reserved.</p>\
+        </div>\
+    </footer>\
+\
+    <div class="fixed-contact">\
+        <a href="tel:0463-58-1686" class="fixed-btn btn-tel">\uc0\u55357 \u56542  \u12362 \u38651 \u35441 \u12539 \u12372 \u20104 \u32004 </a>\
+        <a href="tel:0463-58-1686" class="fixed-btn btn-takeout">\uc0\u55358 \u56673  \u12362 \u25345 \u12385 \u24112 \u12426 \u27880 \u25991 </a>\
+    </div>\
+\
+</body>\
+</html>}
